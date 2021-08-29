@@ -1,0 +1,42 @@
+.colculator_container{
+    width: 240px;
+    margin: 0 auto;
+    background: #000;
+    overflow: hidden;
+}
+.colculator_form input{
+    width: 100%;
+    background: transparent;
+    color: #ffff;
+    height: 50px;
+}
+.colculator{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clear_btn{
+    width: 100%;
+    background-color: #C0C0C0;
+}
+/*.number_box{*/
+/*    max-width: 70%;*/
+/*}*/
+/*.number_box button{*/
+/*    width: calc(100% / 3);*/
+/*}*/
+/*.operators{*/
+/*    max-width: 30%;*/
+/*}*/
+/*.operators button{*/
+/*    width: 100%;*/
+/*}*/
+button{
+    width: 25%;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid #C0C0C0;
+}
+.operator{
+    background-color: #E87D3B;
+    color: #fff;
+}
